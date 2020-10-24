@@ -1,0 +1,13 @@
+server:
+  port: 8080
+# 自定义登录页面使用jsp时, 需要配置
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: buyaonao123
+    url: jdbc:mysql://localhost:3306/spring_security
